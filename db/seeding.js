@@ -1,4 +1,4 @@
-const pool = require("../queries.js");
+const pool = require("../queries");
 const fs = require("fs");
 
 const seedQuery = fs.readFileSync("./db/seeding.sql", "utf-8");
